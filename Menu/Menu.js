@@ -1,15 +1,21 @@
 
-// const toggleMenu = () => {
-//   // Toggle the "menu--open" class on your menu reference.
-//   menu.classList.toggle('menu--open');
-//   TweenMax.to( menu, 1, { left: menu.classList.contains('menu--open') ? 0 : -350 } );
-// }
-
 const toggleMenu = () => {
   // Toggle the "menu--open" class on your menu reference.
   menu.classList.toggle('menu--open');
-  TweenMax.to(this.menu, 2, { left: menu.classList.contains('menu--open') ? 0 : -350 })
-};
+  TweenMax.to( menu, 1, { left: menu.classList.contains('menu--open') ? 0 : -350  } );
+}
+
+// const toggleMenu = () => {
+//   // Toggle the "menu--open" class on your menu reference.
+//   menu.classList.toggle('menu--open');
+//   TweenMax.to( menu, 1, { left: menu.classList.contains('menu--open') ? 0 : -350 })
+ 
+// // if (menu.classList.contains("menu--open")) {
+// //   TweenMax.to(menu, 1, { left: 0 });
+// // } else {
+// //   TweenMax.to(menu, 1, { left: -350 });
+// // }
+// };
 
 
 // Start Here: Create a reference to the ".menu" class
